@@ -1,0 +1,245 @@
+.project-section {
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid red; */
+  margin-bottom: 50px;
+}
+
+.project-container {
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.project-container .project-box {
+  height: auto;
+  width: 300px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.project-box p {
+  padding: 0px;
+  height: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+
+}
+.project-section h1 {
+  font-family: sans-serif;
+  color: #d22020;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.project-section h1::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid white;
+  width: 100px;
+  height: 5px;
+  margin: 10px auto 0;
+}
+
+.project-box {
+  background-image: linear-gradient(
+    to right,
+    rgba(143, 23, 23, 0),
+    rgba(200, 0, 0, 1)
+  );
+}
+
+.project-box .img-box img {
+  width: 100%;
+  transition: 0.8s;
+  overflow: hidden;
+}
+
+.project-box .img-box img:hover {
+  transform: scale(1.05);
+}
+
+.p-btn-box {
+  display: flex;
+  justify-content: center;
+}
+
+.product-btn {
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  margin: 10px 8px 0px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.product-btn:hover {
+  background-color: #000000;
+  border: none;
+}
+
+@media (max-width: 992px) {
+  .project-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-container {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+  }
+
+  .project-container .project-box {
+    height: auto;
+    width: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .project-section h1 {
+    font-family: sans-serif;
+    color: #d22020;
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  .project-section h1::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid white;
+    width: 100px;
+    height: 5px;
+    margin: 10px auto 0;
+  }
+
+  .project-box {
+    background-image: linear-gradient(
+      to right,
+      rgba(143, 23, 23, 0),
+      rgba(200, 0, 0, 1)
+    );
+  }
+
+  .project-box .img-box img {
+    width: 100%;
+    transition: 0.8s;
+    overflow: hidden;
+  }
+
+  .project-box .img-box img:hover {
+    transform: scale(1.05);
+  }
+
+  .p-btn-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-btn {
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin: 10px 8px 0px;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .product-btn:hover {
+    background-color: #000000;
+    border: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-container {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+  }
+
+  .project-container .project-box {
+    height: auto;
+    width: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .project-section h1 {
+    font-family: sans-serif;
+    color: #d22020;
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  .project-section h1::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid white;
+    width: 100px;
+    height: 5px;
+    margin: 10px auto 0;
+  }
+
+  .project-box {
+    background-image: linear-gradient(
+      to right,
+      rgba(143, 23, 23, 0),
+      rgba(200, 0, 0, 1)
+    );
+  }
+
+  .project-box .img-box img {
+    width: 100%;
+    transition: 0.8s;
+    overflow: hidden;
+  }
+
+  .project-box .img-box img:hover {
+    transform: scale(1.05);
+  }
+
+  .p-btn-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-btn {
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin: 10px 8px 0px;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .product-btn:hover {
+    background-color: #000000;
+    border: none;
+  }
+}

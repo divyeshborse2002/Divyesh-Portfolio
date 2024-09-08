@@ -5,8 +5,8 @@ import Contact from './Components/contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Herosection from './Components/Herosection';
 import Navbar from './Components/Navbar';
-import Project from './Components/Work/Project';
 import Loader from './Components/Loader/Loader';
+import Project from './Components/Work/Project';
 
 
 function App() {

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Project.css";
-import EverlaneImage from "../../Images/Everlane.jpg"; // Correct the import statement
-import RedStoreImage from "../../Images/red-store.jpg"; // Correct the import statement
-import FoodImage from "../../Images/food.png"; // Correct the import statement
+import EverlaneImage from "../../Images/Everlane.jpg";
+import RedStoreImage from "../../Images/red-store.jpg";
+import FoodImage from "../../Images/food.png";
 
 const Project = () => {
   return (

@@ -1,5 +1,8 @@
 import React from "react";
 import "./Project.css";
+import Images from "../../Images/Everlane.jpg"
+import Red from "../../Images/red-store.jpg"
+import Food from "../../Images/food.png"
 
 const Project = () => {
   return (
@@ -9,7 +12,7 @@ const Project = () => {
         <div className="project-container">
           <div className="project-box">
             <div className="img-box">
-              <img src="/src/images/Everlane.jpg" alt="Everlane" />
+              <img src={Images} alt="Everlane" />
             </div>
             <div>
               <p>
@@ -40,7 +43,7 @@ const Project = () => {
 
           <div className="project-box">
             <div className="img-box">
-              <img src="/src/images/food.png" alt="" />
+              <img src={Red} alt="" />
             </div>
             <div>
               <p>
@@ -73,7 +76,7 @@ const Project = () => {
 
           <div className="project-box">
             <div className="img-box">
-              <img src="/src/images/red-store.jpg" alt="" />
+              <img src={Food} alt="" />
             </div>
             <div>
               <p>
